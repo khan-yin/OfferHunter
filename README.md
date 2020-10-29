@@ -5,6 +5,6 @@
 
 ## 示例图片
 ![](https://github.com/khannb/OfferHunter/blob/main/asset/1.png?raw=true)
-![](https://github.com/khannb/OfferHunter/tree/main/asset/1.jpg?raw=true)
-![](https://github.com/khannb/OfferHunter/tree/main/asset/1.jpg?raw=true)
-![](https://github.com/khannb/OfferHunter/tree/main/asset/1.jpg?raw=true)
+![](https://github.com/khannb/OfferHunter/tree/main/asset/2.jpg?raw=true)
+![](https://github.com/khannb/OfferHunter/tree/main/asset/3.jpg?raw=true)
+![](https://github.com/khannb/OfferHunter/tree/main/asset/4.jpg?raw=true)
