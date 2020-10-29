@@ -5,8 +5,8 @@
 
 ## 示例图片
 
-![首页](https://khany.top/file/1.jpg)
+![首页](https://github.com/khannb/OfferHunter/blob/main/asset/1.png)
 
-![动态](https://khany.top/file/2.jpg)
+![动态](https://github.com/khannb/OfferHunter/blob/main/asset/3.png)
 
-![我的](https://khany.top/file/3.jpg)
+![我的](https://github.com/khannb/OfferHunter/blob/main/asset/4.png)
