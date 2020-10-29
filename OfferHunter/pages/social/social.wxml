@@ -1,0 +1,31 @@
+<!--pages/social/social.wxml-->
+
+<view class="contains">
+
+	<swiper class="index-swiper" indicator-dots="{{true}}" autoplay="{{true}}" circular="true">
+		<block wx:for="{{imageUrl}}" wx:key="{{index}}">
+			<swiper-item>
+				<image  src="{{item}}"/>
+			</swiper-item>
+		</block>
+	</swiper>
+
+<canvas canvas-id="columnCanvas" class="canvas" ></canvas>
+<view class="fatherlist">
+<view class="news-list" wx:for="{{newList}}" wx:key="{{item}}">
+	<newsItem title="{{item.title}}"
+	like="{{item.like}}" 
+	comments="{{item.comments}}"
+	time="{{item.time}}" 
+	author="{{item.author}}"
+	imgUrl="{{item.imgUrl}}"
+	isTop="{{item.isTop}}"></newsItem>
+</view>
+</view>
+
+
+</view>
+
+
+
+

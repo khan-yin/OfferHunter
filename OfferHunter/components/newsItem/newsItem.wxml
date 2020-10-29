@@ -1,0 +1,19 @@
+<!--components/newsItem.wxml-->
+<view class="news-contains">
+		<view class="content">
+			<view>
+				<image wx:if="{{isTop}}" class="icon" src="../../static/img/toTop.png" mode="widthFix"></image>
+				{{title}}
+			</view>
+			<view style="font-size: 12px;">
+				{{author}}
+			</view>
+			<view style="font-size: 11px; color: #726A4E;">
+				{{comments}}评论{{like}}点赞{{time}}
+			</view>
+		</view>
+		<image class="img" src="{{imgUrl}}" mode="widthFix"></image>
+		
+	</view>
+
+

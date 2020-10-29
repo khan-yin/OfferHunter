@@ -1,0 +1,37 @@
+<!--index.wxml-->
+<view class="index-container">
+	<view class="searchstyle">
+		<van-search bind:search="search"  value="{{ key }}" shape="round" background="#1296DB" placeholder="请输入搜索关键词" />
+	</view>
+	<van-dropdown-menu>
+  <van-dropdown-item bindtap="getJob" model:value="{{ city }}" options="{{ option1 }}" />
+  <van-dropdown-item bindtap="getJob" model:value="{{ salary }}" options="{{ option2 }}" />
+    <van-dropdown-item bindtap="getspecialjob" model:value="{{ keyword }}" options="{{ option3 }}" />
+</van-dropdown-menu>
+
+	<view class="joblist">
+        <block wx:for="{{jobs}}" wx:key="item">
+            <view class="job">
+				<view class="titlestyle">
+					<view style="font-size: 40rpx;font-family: SimHei;">{{item.title}}</view>
+					<view style="color: #1296DB">{{item.require_list[0]}}</view>
+				</view>
+				<view style="company">
+				<image style="padding-left: 20rpx; width: 35rpx; height : 35rpx" src="../../static/icon/company.png"></image>
+				{{item.company}}
+				</view>
+				<view class="requirelist">
+				<image style="width: 50rpx; height : 50rpx" src="../../static/icon/require.png"></image>
+				<view class="requireitem">{{item.require_list[1]}}</view>
+				<view class="requireitem">{{item.require_list[2]}}</view>
+				<view class="requireitem">{{item.require_list[3]}}</view>
+				</view>
+			
+			</view>
+        </block>
+    </view>
+
+
+
+
+</view>

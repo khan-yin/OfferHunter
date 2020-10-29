@@ -1,0 +1,35 @@
+/* components/newsItem.wxss */
+
+.news-contains{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	text-align: center;
+	width: 100vw;
+	height: 300rpx;
+	/* background-color: crimson; */
+	border-radius: 10rpx;
+	box-shadow:0rpx 0rpx  15rpx #ccc;
+	margin-bottom: 20rpx;
+	/* box-shadow: 0 0 20upx rgb(69, 81, 91); */
+}
+
+.content{
+	display: flex;
+	flex-direction: column;
+	padding: 20rpx;
+	/* background-color: blue; */
+	justify-content: space-between;
+	text-align: left;
+	width: 100%;
+}
+
+.img{
+	width: 80%;
+}
+
+.icon{
+	width: 80rpx;
+	height: 80rpx;
+	margin-right: 5rpx;
+}

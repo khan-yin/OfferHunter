@@ -1,0 +1,80 @@
+/* pages/mine.wxss */
+.userinfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.otherInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10rpx;
+}
+
+.tablebar{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20rpx;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.easyinfo{
+  text-align: left;
+  padding: 0%;
+
+}
+
+.userinfo-avatar {
+  width: 200rpx;
+  height: 200rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.userCard{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 95%;
+  border-radius: 10rpx;
+  border: solid 1rpx #aaa;
+  box-shadow: 3rpx 3rpx 3rpx #888888;
+  margin-top: 10rpx;
+  margin-bottom: 20rpx;
+}
+
+.cell{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.icon{
+  margin-left: 30rpx;
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}

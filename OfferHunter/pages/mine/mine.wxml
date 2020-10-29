@@ -1,0 +1,58 @@
+<!--pages/mine.wxml-->
+<view class="container">
+	<view class="userCard">
+		<view class="userinfo">
+			<button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+			<block wx:else>
+				<image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+				<view class="easyinfo">
+					<view class="userinfo-nickname">
+						{{userInfo.nickName}}
+					</view>
+					<view class="userinfo-nickname">
+						武汉理工大学/本科/20岁
+					</view>
+				</view>
+			</block>
+		</view>
+	</view>
+
+
+	<view class="tablebar">
+		<view style="item">
+			<image class="icon" src="../../static/icon/4.svg"></image>
+			<view style="font-size: 30rpx;">我的简历</view>
+		</view>
+
+		<view style="item">
+			<image class="icon" src="../../static/icon/3.svg"></image>
+			<view style="font-size: 30rpx;">我的投递</view>
+		</view>
+
+		<view style="item">
+			<image class="icon" src="../../static/icon/1.svg"></image>
+			<view style="font-size: 30rpx;">关注公司</view>
+		</view>
+    
+		<view style="item">
+			<image class="icon" src="../../static/icon/2.svg"></image>
+			<view style="font-size: 30rpx;">职位收藏</view>
+		</view>
+	</view>
+
+	<view class="otherInfo">
+		<van-cell-group>
+			<van-cell title="我的邮箱" icon="envelop-o" size="large" value="xxxxxx@qq.com" />
+			<van-cell title="我的博客" icon="replay" size="large" value="https://khany.top" />
+		</van-cell-group>
+	</view>
+
+	<!-- envelop-o -->
+	<view class="cell">
+		<van-cell title="求职方向" icon="star-o" size="large" value="数据挖掘工程师" is-link />
+		<van-cell title="切换状态" icon="exchange" size="large" value="我要找工作" is-link />
+		<van-cell title="设置" icon="setting-o" size="large" is-link />
+		<van-cell title="反馈与帮助" icon="comment-o" size="large" is-link />
+	</view>
+
+</view>

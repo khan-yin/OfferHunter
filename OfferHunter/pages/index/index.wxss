@@ -1,0 +1,72 @@
+/**index.wxss**/
+.index-container {
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  overflow: scroll;
+} 
+
+.searchstyle{
+  width: 100%;
+}
+
+
+
+
+
+.job{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 95%;
+  padding: 10rpx;
+  height: 200rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  border: solid 2rpx #aaa;
+  border-radius: 10rpx;
+  box-shadow: 0 0 5rpx gray;
+  /* overflow: scroll; */
+  /* align-items: center; */
+}
+
+.company{
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  color: #aaa;
+}
+
+.joblist{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 98%;
+  height: 100%;
+  overflow: scroll;
+}
+
+.titlestyle{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: 900;
+  margin-bottom: 10rpx;
+}
+
+.requirelist{
+  display: flex;
+  flex-direction: row;
+  padding: 10rpx;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.requireitem{
+  font-size: 30rpx;
+  background-color: #F5F5F5;
+  border-radius: 10rpx;
+}

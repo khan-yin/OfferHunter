@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "newsItem" : "../../components/newsItem/newsItem"
+  },
+  "navigationBarTitleText": "动态",
+  "enablePullDownRefresh": true
+}
